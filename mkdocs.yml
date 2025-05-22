@@ -1,0 +1,9 @@
+site_name: Enhancing Secure Multi-Party Computation with Damgård-Jurik and NIZK
+
+nav:
+  - home: index.md
+  - Metrics: metrics.md
+  - Base Code: basecode.md
+theme:
+  name: material
+  language: es

@@ -2,8 +2,17 @@ site_name: Enhancing Secure Multi-Party Computation with Damgård-Jurik and NIZK
 
 nav:
   - home: index.md
-  - Metrics: metrics.md
-  - Base Code: basecode.md
+#  - Metrics: metrics.md
+#  - Base Code: basecode.md
 theme:
   name: material
   language: es
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
